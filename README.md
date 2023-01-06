@@ -1,11 +1,26 @@
 # Config库
 
+## 基本信息
+
+### 代码分布
+
+```text
+/───.vscode     # VSCode相关配置
+├───bin         # 存放最终产物（仅保留文件夹）
+├───build       # 存放构建中间产物（仅保留文件夹）
+├───example     # 示例代码
+├───include     # 头文件代码
+├───script      # 构建相关脚本
+├───src         # 实现代码
+└───test        # 测试代码
+```
+
 ## 构建支持
 
 * 支持C++20的编译器（Clang、GCC、MSVC）
   * `enum class`
   * `std::format`
-* 非Windows下需要安装libfmt
+* 非Windows环境下需要安装libfmt
 
 ### Ubuntu
 
@@ -31,7 +46,12 @@ cd build
 
 ## 包含内容
 
+* Error.h
+* FormatAdaper.h
+
 ### JSON的解析和构造
+
+* JSONParser.h
 
 ### XML的解析和构造
 

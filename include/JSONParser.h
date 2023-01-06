@@ -1,3 +1,13 @@
+/**
+ * @file JSONParser.h
+ * @author 0x574859 (Hex574859@outlook.com)
+ * @brief JSON parser.
+ * @version 0.1
+ * @date 2023-01-06
+ *
+ * @copyright Copyright (c) 2023
+ *
+ */
 #pragma once
 
 #include <functional>
@@ -8,7 +18,7 @@
 #include <string>
 #include <vector>
 
-#include "FormatCompat.h"
+#include "FormatAdapter.h"
 #include "Error.h"
 
 namespace Config {
@@ -406,7 +416,7 @@ private:
 
     Scanner m_scanner;
 };
-// JSON
-}
-// Y
-}
+
+} // JSON
+
+} // Config
