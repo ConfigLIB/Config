@@ -1,9 +1,21 @@
+/**
+ * @include main.cpp
+ * @file main.cpp
+ * @author 0x574859 (Hex574859@outlook.com)
+ * @brief sample code
+ * @version 0.1
+ * @date 2023-01-07
+ *
+ * @copyright Copyright (c) 2023
+ *
+ */
+
 #include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
 
-#include "include/JSONParser.h"
+#include "JSONParser.h"
 
 using namespace std::literals::string_literals;
 using namespace Config::JSON;

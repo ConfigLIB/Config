@@ -18,7 +18,7 @@
 ## 构建支持
 
 * 支持C++20的编译器（Clang、GCC、MSVC）
-  * `enum class`
+  * `using enum class`
   * `std::format`
 * 非Windows环境下需要安装libfmt
 
@@ -47,7 +47,7 @@ cd build
 ## 包含内容
 
 * Error.h
-* FormatAdaper.h
+* FormatAdapter.h
 
 ### JSON的解析和构造
 
